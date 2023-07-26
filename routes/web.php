@@ -25,15 +25,15 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/FoodHistory', function () {
+Route::get('/foodhistory', function () {
     return Inertia::render('FoodHistory');
 });
 
-Route::get('/FoodDetail', function () {
+Route::get('/fooddetail', function () {
     return Inertia::render('FoodDetail');
 });
 
-Route::get('/FoodCart', function () {
+Route::get('/foodcart', function () {
     return Inertia::render('FoodCart');
 });
 
