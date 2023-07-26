@@ -1,7 +1,8 @@
 <script setup></script>
 
 <template>
-    <div class="w-full min-h-screen">
+    <div class="w-full min-h-screen bg-gray-200">
+    <div class="w-full max-w-sm min-h-screen mx-auto bg-white">
         <div
             class="relative flex items-center justify-center w-full h-24 border-b-2 border-gray-100 shadow"
         >
@@ -30,11 +31,11 @@
                 <div class="mt-4 text-sm text-gray-400">สั่งโดย: A</div>
             </div>
             <div class="flex items-center justify-center">
-                <button
+                <span
                     class="px-4 py-2 text-xs text-white bg-orange-400 rounded-xl"
                 >
                     กำลังทำ
-                </button>
+                </span>
             </div>
         </div>
         <div class="flex items-center justify-between p-3 border-b-2 border-gray-200">
@@ -66,7 +67,7 @@
                 </button>
             </div>
         </div>
-        <div class="fixed bottom-0 w-full border-t-2 border-gray-100 h-36">
+        <div class="fixed bottom-0 w-full max-w-sm mx-auto border-t-2 border-gray-100 h-36">
             <div
                 class="flex items-center justify-between p-4 text-lg font-bold"
             >
@@ -79,5 +80,6 @@
                 <span class="mr-2">X</span>บิลค่าอาหาร
             </button>
         </div>
+    </div>
     </div>
 </template>
