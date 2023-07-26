@@ -29,6 +29,13 @@ Route::get('/history', function () {
     return Inertia::render('History');
 });
 
+Route::get('/home_page', function () {
+    return Inertia::render('HomePage');
+});
+
+Route::get('/menu_model', function () {
+    return Inertia::render('ListMenuModel');
+});
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

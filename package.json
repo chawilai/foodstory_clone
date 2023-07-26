@@ -3,7 +3,9 @@
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "vite build"
+        "build": "vite build",
+        "artisan": "php artisan",
+        "db": "npm run artisan db"
     },
     "devDependencies": {
         "@inertiajs/vue3": "^1.0.0",
@@ -16,5 +18,8 @@
         "tailwindcss": "^3.2.1",
         "vite": "^4.0.0",
         "vue": "^3.2.41"
+    },
+    "dependencies": {
+        "ziggy-js": "github:tightenco/ziggy"
     }
 }
