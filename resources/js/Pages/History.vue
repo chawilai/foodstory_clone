@@ -30,6 +30,7 @@
                 <!-- ล่าง -->
                 <div class="mt-4 text-sm text-gray-400">สั่งโดย: A</div>
             </div>
+            <!-- ssdf -->
             <div class="flex items-center justify-center">
                 <span
                     class="px-4 py-2 text-xs text-white bg-orange-400 rounded-xl"
