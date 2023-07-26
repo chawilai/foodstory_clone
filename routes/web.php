@@ -25,8 +25,16 @@ Route::get('/', function () {
     ]);
 });
 
-Route::get('/history', function () {
-    return Inertia::render('History');
+Route::get('/FoodHistory', function () {
+    return Inertia::render('FoodHistory');
+});
+
+Route::get('/FoodDetail', function () {
+    return Inertia::render('FoodDetail');
+});
+
+Route::get('/FoodCart', function () {
+    return Inertia::render('FoodCart');
 });
 
 Route::get('/home_page', function () {
